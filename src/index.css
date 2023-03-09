@@ -1,0 +1,163 @@
+/* CSS stylesheet for everything */
+
+/* Universal and background:*/
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  background-image: url("./images/Orangutan.png");
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+  background-color: #bbd8ee;
+  background-position: center;
+  background-size: auto;
+  color: rgb(39, 39, 39);
+}
+
+
+/* Main container*/
+.main-container {
+  text-align: center;
+  align-items: center;
+  min-width: 400px;
+  max-width: 35rem;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid rgb(44, 44, 44);
+  padding: 10px 30px;
+  border-radius: 25px;
+}
+
+/* Header component style */
+.header-container {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+h4 {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+#header {
+  text-align: center;
+}
+
+/* Help style */
+.rules-list {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.rules-list li {
+  font-size: 1rem;
+  margin-bottom: 3px;
+}
+
+/* Results */
+.results-container {
+  text-align: center;
+  margin: 5px 0px;
+}
+
+#result {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(235, 252, 89);
+}
+
+/* Hangman and Word*/
+.state-container {
+
+  display: flex;
+  flex-flow: row;
+  max-width: 35rem;
+  align-items: center;
+}
+
+.state-img {
+  width: 9rem;
+  padding: 1px;
+  border-radius: 5px;
+  margin-left: 40px;
+  align-items: start;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.state-dash {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+/*Radius buttons*/
+.btn {
+  background: #3eb5b9;
+  color: rgb(227, 235, 156);
+  padding: 8px 15px;
+  margin: 12px 0;
+  border-style: solid;
+  border-color: rgb(207, 108, 191);
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: inherit;
+  width: 174x;
+}
+
+/* Alphabet keyboard*/
+.alpha-container {
+
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 30rem;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.icon {
+  padding: 2px;
+  margin: 5px;
+  border-radius: 3px;
+  background-color: rgb(91, 91, 92);
+  cursor: pointer;
+}
+
+.icon button {
+  font-size: 16px;
+  background-color: rgb(46, 54, 173);
+  color: white;
+  width: 1.9rem;
+  border: 1px solid rgb(133, 133, 134);
+  cursor: pointer;
+  height: 1.9rem;
+}
+
+/*Hover and changes*/
+
+.icon button:hover {
+  font-size: 20px;
+  color: rgb(226, 108, 226);
+  background-color: rgb(201, 231, 34);
+  text-emphasis: strong;
+}
+
+.button-green {
+  background-color: rgb(77, 193, 197) !important; /*!Important overrides nearer settings*/
+  color: rgb(214, 226, 108) !important;
+}
+
+.button-pink {
+  background-color: rgb(224, 94, 185) !important;
+  color: rgb(214, 226, 108) !important;
+}
+
+.button-grey {
+  background-color: grey !important;
+}
