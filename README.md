@@ -14,7 +14,7 @@ Monkey theme but nothing to do with Hartlepool.
 4. Number of blank spaces indicates letters in the word.
 5. If your guess is correct, the letter is revealed.
 6. If your guess is incorrect, you lose a chance.
-7. You win when you get every letter of the word before hangman drawing finishes.
+7. You win when you get every letter of the word before hangman is complete.
 
 ## Installation Instructions
 
