@@ -37,15 +37,15 @@ Create a new folder then in the terminal (or a new terminal if required) :
 
 `npx create-react-app@latest T52HANGMAN`
 
-### Clone this repository
-
-Why not download the zip file from GitHub and paste the contents of the folder 
-into the new one. First delete the existing.
-
 ### Install Redux Tool Kit
 
 In the project directory 'hangman-react-redux', run following commands  
 `npm install --save @reduxjs/toolkit react-redux`
+
+### Clone this repository
+
+Why not download the zip file from GitHub and paste the contents of the folder 
+into the new one. First delete the existing files.
 
 ### Run 
 
