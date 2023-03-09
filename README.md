@@ -1,6 +1,6 @@
 # Hangman-utan
 
-![sample image](https://github.com/JamesACook/Hangman-utan/blob/main/src/images/Sample.jpg)
+![sample image](https://github.com/JamesACook/Hangman-utan/blob/main/src/images/Sample.jpg){:width="320px"}
 
 The classic Hangman game with hyphenated answers included = beast mode!
 Monkey theme but nothing to do with Hartlepool.
