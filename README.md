@@ -1,6 +1,8 @@
 # Hangman-utan
 
-<div style="text-align:center; width:auto; align-items:center;"><img alt="example gameplay" src="https://github.com/JamesACook/Hangman-utan/blob/main/src/images/Sample.jpg" style="width:500px; align:center;"></ div><br /> <br />
+<p align=center>
+  <img alt="example gameplay" src="https://github.com/JamesACook/Hangman-utan/blob/main/src/images/Sample.jpg" style="width:400px;" />
+  </p>
 
 
 The classic Hangman game with hyphenated answers included = beast mode!
