@@ -1,4 +1,5 @@
-// Header component that also contains 'Help' button. A user can toggle between displaying the rules or hiding it.
+// Header simply is component to hold the header but would likely grow in complexity so kept separate
+// Also makes logical sense to have such an important, recuurent feature if expands.
 
 import logo from '../images/logo.png'
 

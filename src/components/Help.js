@@ -1,5 +1,8 @@
 // Component to display the rules of the game or help.
 
+// In Body htere is a boolean ternary operator that changes the text
+// Aslo it is set to only show if a boolena is true that is toggled by the button
+
 const Help = () => {
   return (
     <div>

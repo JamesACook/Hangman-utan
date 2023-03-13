@@ -26,6 +26,8 @@ const DisplayMan = ({ disableButtons }) => {
 
   let img = document.getElementById("state-img");
 
+  // check game has started with img then change image with switch
+  // image changes with count from the wordSlice reducer
   if (img) {
     switch (count) {
       case 0:

@@ -14,25 +14,24 @@ export const wordSlice = createSlice({
   },
  
   reducers: {
-    // Get a random new word from the word list.
+    // Get a random new word from the word list as start button is pressesd.
     getWord: (state) => {
       let newWord = wordList[Math.floor(Math.random() * wordList.length)];
-      newWord = newWord.trim().toUpperCase(); // consistent case easy checking no spaces
+      newWord = newWord.trim().toUpperCase(); // consistent case, removing no spaces
       state.newWord = newWord;
     },
 
-    // increase counter by 1
+    // increase counter by 1 for every wrong guess
     increaseCount: (state) => {
       state.count += 1;
     },
 
-    // initialise count as needed
+    // initialise count as needed for reset
     startCount: (state) => {
-      state.count = 0;
-      state.win = false;
+      state.count = 0;    
     },
 
-    // set result message
+    // set result message via a switch for win, loss or reset.
     setResult: (state, action) => {
       switch (action.payload) {
         case 0:

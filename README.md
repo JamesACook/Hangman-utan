@@ -1,10 +1,5 @@
 # Hangman-utan
 
-<p align=center>
-  <img alt="example gameplay" src="https://github.com/JamesACook/Hangman-utan/blob/main/src/images/Sample.jpg" style="width:400px;" />
-  </p>
-
-
 The classic Hangman game with hyphenated answers included = beast mode!
 Monkey theme but nothing to do with Hartlepool.
 
@@ -16,7 +11,7 @@ Monkey theme but nothing to do with Hartlepool.
 4. Number of blank spaces indicates letters in the word.
 5. If your guess is correct, the letter is revealed.
 6. If your guess is incorrect, you lose a chance.
-7. You win when you get every letter of the word before hangman is complete.
+7. You win when you get every letter of the word before hangman drawing finishes.
 
 ## Installation Instructions
 
@@ -32,7 +27,6 @@ In the project directory in the terminal run:
 #### `npm start` to begin 
 
 Runs the app in the development mode.
-
 [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 Enjoy!

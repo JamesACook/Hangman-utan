@@ -1,4 +1,4 @@
-//The App component brings together The header and body to pass to index.js
+//The App component simply brings together the header and body to pass to index.js
 
 import Body from "./components/Body";
 import Header from "./components/Header";
