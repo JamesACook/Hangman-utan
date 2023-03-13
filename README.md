@@ -23,35 +23,13 @@ Monkey theme but nothing to do with Hartlepool.
 If the game is not hosted in GitHub already with a link you can install on your machine.
 We recommend free program Visual Studio Code to achieve this.
 
-Create a new folder then in the terminal (or a new terminal if required) :
+Clone or download the files to your machine.
 
-### Update NPM:
+In the project directory in the terminal run:
 
-`npm install -g npm@latest`
+#### `npm install` to import the node_modules if not already present in the app folder
 
-### Update Node:
-
-`npm install -g node@latest`
-
-### Install React App
-
-`npx create-react-app@latest T52HANGMAN`
-
-### Install Redux Tool Kit
-
-In the project directory 'hangman-react-redux', run following commands  
-`npm install --save @reduxjs/toolkit react-redux`
-
-### Clone this repository
-
-Why not download the zip file from GitHub and paste the contents of the folder 
-into the new one. First delete the existing files.
-
-### Run 
-
-In the project directory, run:
-
-#### `npm start`
+#### `npm start` to begin 
 
 Runs the app in the development mode.
 [http://localhost:3000](http://localhost:3000) to view it in your browser.
