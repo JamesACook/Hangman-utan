@@ -1,5 +1,7 @@
 # Hangman-utan
 
+<img src="./images/Sample.jpg">
+
 The classic Hangman game with hyphenated answers included = beast mode!
 Monkey theme but nothing to do with Hartlepool.
 
